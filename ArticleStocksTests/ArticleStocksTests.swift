@@ -2,7 +2,7 @@
 //  ArticleStocksTests.swift
 //  ArticleStocksTests
 //
-//  Created by 西山幹也 on 2021/04/01.
+//  Created by 西山幹也 on 2021/04/02.
 //
 
 import XCTest
