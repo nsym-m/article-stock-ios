@@ -10,6 +10,13 @@
 		037551B52618647F0073EE83 /* StockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037551B42618647F0073EE83 /* StockListView.swift */; };
 		037551BD261864AE0073EE83 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037551BC261864AE0073EE83 /* OtherView.swift */; };
 		037551DC26186C850073EE83 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 037551DE26186C850073EE83 /* Localizable.strings */; };
+		03755208261A6ACB0073EE83 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03755202261A6ACB0073EE83 /* Tag+CoreDataClass.swift */; };
+		03755209261A6ACB0073EE83 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03755203261A6ACB0073EE83 /* Tag+CoreDataProperties.swift */; };
+		0375520A261A6ACB0073EE83 /* StockTagMap+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03755204261A6ACB0073EE83 /* StockTagMap+CoreDataClass.swift */; };
+		0375520B261A6ACB0073EE83 /* StockTagMap+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03755205261A6ACB0073EE83 /* StockTagMap+CoreDataProperties.swift */; };
+		0375520C261A6ACB0073EE83 /* Stock+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03755206261A6ACB0073EE83 /* Stock+CoreDataClass.swift */; };
+		0375520D261A6ACB0073EE83 /* Stock+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03755207261A6ACB0073EE83 /* Stock+CoreDataProperties.swift */; };
+		03755215261A751A0073EE83 /* StockCoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03755214261A751A0073EE83 /* StockCoreDataModel.swift */; };
 		03C1803126161C7C0012FF76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1803026161C7C0012FF76 /* AppDelegate.swift */; };
 		03C1803326161C7C0012FF76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1803226161C7C0012FF76 /* SceneDelegate.swift */; };
 		03C1803526161C7C0012FF76 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1803426161C7C0012FF76 /* MainView.swift */; };
@@ -43,6 +50,13 @@
 		037551B42618647F0073EE83 /* StockListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListView.swift; sourceTree = "<group>"; };
 		037551BC261864AE0073EE83 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 		037551DD26186C850073EE83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03755202261A6ACB0073EE83 /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataClass.swift"; sourceTree = "<group>"; };
+		03755203261A6ACB0073EE83 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03755204261A6ACB0073EE83 /* StockTagMap+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StockTagMap+CoreDataClass.swift"; sourceTree = "<group>"; };
+		03755205261A6ACB0073EE83 /* StockTagMap+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StockTagMap+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03755206261A6ACB0073EE83 /* Stock+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stock+CoreDataClass.swift"; sourceTree = "<group>"; };
+		03755207261A6ACB0073EE83 /* Stock+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stock+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		03755214261A751A0073EE83 /* StockCoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCoreDataModel.swift; sourceTree = "<group>"; };
 		03C1802D26161C7C0012FF76 /* ArticleStocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArticleStocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C1803026161C7C0012FF76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03C1803226161C7C0012FF76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +100,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03755201261A6A990073EE83 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				03755202261A6ACB0073EE83 /* Tag+CoreDataClass.swift */,
+				03755203261A6ACB0073EE83 /* Tag+CoreDataProperties.swift */,
+				03755204261A6ACB0073EE83 /* StockTagMap+CoreDataClass.swift */,
+				03755205261A6ACB0073EE83 /* StockTagMap+CoreDataProperties.swift */,
+				03755206261A6ACB0073EE83 /* Stock+CoreDataClass.swift */,
+				03755207261A6ACB0073EE83 /* Stock+CoreDataProperties.swift */,
+				03755214261A751A0073EE83 /* StockCoreDataModel.swift */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
 		03C1802426161C7C0012FF76 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +137,7 @@
 		03C1802F26161C7C0012FF76 /* ArticleStocks */ = {
 			isa = PBXGroup;
 			children = (
+				03755201261A6A990073EE83 /* CoreDataModel */,
 				03C1806926161DC40012FF76 /* Utils */,
 				03C1806826161DB90012FF76 /* Resource */,
 				03C1806726161DA10012FF76 /* View */,
@@ -316,12 +345,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				03C1803126161C7C0012FF76 /* AppDelegate.swift in Sources */,
+				0375520D261A6ACB0073EE83 /* Stock+CoreDataProperties.swift in Sources */,
 				03C1803826161C7C0012FF76 /* ArticleStocks.xcdatamodeld in Sources */,
+				03755208261A6ACB0073EE83 /* Tag+CoreDataClass.swift in Sources */,
 				03C1807626161F6B0012FF76 /* SplashView.swift in Sources */,
 				037551B52618647F0073EE83 /* StockListView.swift in Sources */,
 				037551BD261864AE0073EE83 /* OtherView.swift in Sources */,
 				03C1803326161C7C0012FF76 /* SceneDelegate.swift in Sources */,
 				03C1803526161C7C0012FF76 /* MainView.swift in Sources */,
+				03755215261A751A0073EE83 /* StockCoreDataModel.swift in Sources */,
+				0375520C261A6ACB0073EE83 /* Stock+CoreDataClass.swift in Sources */,
+				0375520B261A6ACB0073EE83 /* StockTagMap+CoreDataProperties.swift in Sources */,
+				0375520A261A6ACB0073EE83 /* StockTagMap+CoreDataClass.swift in Sources */,
+				03755209261A6ACB0073EE83 /* Tag+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
